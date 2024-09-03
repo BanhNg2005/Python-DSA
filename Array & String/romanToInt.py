@@ -23,6 +23,8 @@ class Solution:
                 i += 1 # move to the next index
 
         return tong 
+        # Time: O(n) where n is the length of the string
+        # Space: O(1)
 
 # Test
 def main() -> None:
