@@ -5,7 +5,7 @@ class Solution:
         s = [] # create an empty list because of its efficiency
 
         word = 1 # word1 is 1 and word2 is 2
-        while a < a and b < B:
+        while a < A and b < B:
             if word == 1:
                 s.append(word1[a]) # s appends the letter of word1 at its index a
                 a += 1 # increment a
