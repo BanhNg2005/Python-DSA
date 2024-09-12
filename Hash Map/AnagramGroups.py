@@ -19,7 +19,9 @@ class Solution:
 
         return h.values() # return all the grouped anagram
 
-
+        # Time complexity: O(m * n) where m is the number of strings we are given and n is the
+        # average length of each string, how many chars are in each string
+        # Space complexity: O(m * n) since we are storing all the strings in the hash map
 
 
 def main() -> None:
