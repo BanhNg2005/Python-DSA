@@ -38,7 +38,8 @@ class Solution:
         for i in range (len(freq) - 1, 0, -1): # iterate from the end of the list to the beginning
             for n in freq[i]:
                 res.append(n) # append the value n to the result list
-                if len(res) == k: 
+                if len(res) == k: # at some point, the result output will have the same size as k because
+                    # we are guaranteed to have at least k values in the input array
                     return res
         # Time complexity: O(n) since we have to iterate through the list of frequencies and the list of elements
         # Space complexity: O(n) since we have to count the occurrences of each value in the input array
