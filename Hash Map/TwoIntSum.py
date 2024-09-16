@@ -3,7 +3,7 @@ from typing import List
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         prevMap = {}  # hashmap contains value : index
-        # every elements come before the current element will be checked in the hashmap
+        # every element come before the current element will be checked in the hashmap
         # or every previous element will be stored in the hashmap
 
         for i, n in enumerate(nums): # iterate through every index, number in the array, 
