@@ -25,3 +25,5 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
+
+# Output: [[1, 6], [7, 10]]
