@@ -50,7 +50,7 @@ class Solution:
 def main() -> None:
     matrix1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
     matrix2 = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]
-    matrix3 = [[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15]]
+    matrix3 = [[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11, 12, 13, 14, 15]]
     sol = Solution()
     print(sol.spiralOrder(matrix1))
     print(sol.spiralOrder(matrix2))
