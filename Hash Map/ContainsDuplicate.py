@@ -25,7 +25,7 @@ class Solution:
         return False
 
         # Time complexity: O(n) where n is the number of elements in the list
-        # Space complexity: O(n) due to the storage of elements in the set
+        s# Space complexity: O(n) due to the storage of elements in the set
 
 
 def main() -> None:
