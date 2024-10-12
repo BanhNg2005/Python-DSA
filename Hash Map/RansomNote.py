@@ -19,7 +19,7 @@ class Solution:
         # if there is nothing left in the counter dictionary, return True
 
     # Time complexity: O(n + m) where n is the length of ransomNote and m is the length of magazine
-    # Space complexity: O(m) where m is the length of magazine
+    # Space complexity: O(m) where m is where we are storing the frequency of each letter in the magazine
     
 def main() -> None:
     ransomNote = "aa"
