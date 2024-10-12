@@ -21,6 +21,21 @@ class Solution:
     # Time complexity: O(n) or O(s + t) since we have to iterate through both of the strings
     # Space complexity: O(1) or O(s + t) because it is up to the size of the s and t strings
 
+    # solution using the Counter module
+    # from collections import Counter (import at the top of the file)
+
+    # if len(s) != len(t):
+    #     return False
+    #
+    # s_dict = Counter(s)
+    # t_dict = Counter(t)
+    #
+    # return s_dict == t_dict
+
+    # Time complexity: O(n) because we have to go over all the keys in the s_dict and also check if the keys are the same in the t_dict
+    # Space complexity: O(n) because we are storing the frequency of each character in the string s and t
+
+
 def main() -> None:
     s = 'lmao'
     t = 'maol'
