@@ -1,13 +1,13 @@
 class Solution:
-    def TOH(self, n, a, b, c):
+    def TowerOfHanoi(self, n, a, b, c):
         # recursive method
         # logic: move n-1 disks from A to B using C as auxiliary
         # then move the last disk from A to C
         # then move n-1 disks from B to C using A as auxiliary
         if n > 0:
-            self.TOH(n - 1, a, c, b)
+            self.TowerOfHanoi(n - 1, a, c, b)
             print(f"Move disk {n} from {a} to {c}")
-            self.TOH(n - 1, b, a, c)
+            self.TowerOfHanoi(n - 1, b, a, c)
 
 def main() -> None:
     n = 5
